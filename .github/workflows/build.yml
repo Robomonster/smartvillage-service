@@ -4,7 +4,7 @@ on:
     branches: ["main"]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "python-microservice"
+  IMAGE_NAME: "python-microservice-new"
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
   REGISTRY_USER: ${{ github.actor }}
   REGISTRY_PASSWORD: ${{ github.token }}
